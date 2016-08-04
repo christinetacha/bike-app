@@ -8,8 +8,12 @@
   </head>
   <body>
     <div class="container">
+      <div>
+        <h2>See a list of all bikes stolen in Portland over the past year</h2>
+        <button class="btn-primary" type="submit" id = "listBikes" name="button">See List</button>
+    </div>
       <form id="bikeBrand">
-        <h2>Choose a manufacturer:</h2>
+        <h2>Choose a manufacturer to see how many of those bikes were stolen in Portland over the past year:</h2>
         <div class="form-check">
           <label class="form-check-label">
             <input class="form-check-input" type="radio" name="exampleRadios" id="Specialized" value="Specialized">
@@ -42,6 +46,7 @@
         </div>
         <button class="btn-primary" type="submit" name="button">Submit!</button>
       </form>
+      <div id="bikeList"></div>
       <div class="results"></div>
     </div>
   </body>
